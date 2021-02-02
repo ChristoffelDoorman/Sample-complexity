@@ -71,7 +71,7 @@ def winnow(X, Y, X_test):
 
 def least_squares(X, Y, X_test):
     """
-    This function trains  
+    Least squares algorithm
     """
     
     # train weight vector
@@ -85,7 +85,7 @@ def least_squares(X, Y, X_test):
 
 def one_nearest_neighbors(X, Y, X_test):
     """
-    1-nn
+    1 nearest neighbour algorithm
     """
     M, N = X_test.shape
     
